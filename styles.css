@@ -135,6 +135,22 @@ main {
     width: 100%; 
     margin-bottom: 20px; 
   }
+
+  header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header nav ul {
+    width: 100%;
+  }
+  
+  header nav ul li {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+  }
 }
 
 #Projet-scolaire {
